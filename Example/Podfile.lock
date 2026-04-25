@@ -1,0 +1,16 @@
+PODS:
+  - HYFFmpegKit (0.1.0)
+
+DEPENDENCIES:
+  - HYFFmpegKit (from `../`)
+
+EXTERNAL SOURCES:
+  HYFFmpegKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYFFmpegKit: a718f7a0b4f61df40592404375c5706082a0c1e5
+
+PODFILE CHECKSUM: 3db2a37d81c3d56df29544cf6f1fbac973c252aa
+
+COCOAPODS: 1.16.2

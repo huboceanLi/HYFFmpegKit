@@ -1,0 +1,6 @@
+framework module Pods_HYFFmpegKit_Tests {
+  umbrella header "Pods-HYFFmpegKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

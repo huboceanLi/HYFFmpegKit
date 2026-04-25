@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYFFmpegKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of HYFFmpegKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,17 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/li437277219@gmail.com/HYFFmpegKit'
+  s.homepage         = 'https://github.com/huboceanLi/HYFFmpegKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'li437277219@gmail.com' => 'li437277219@gmail.com' }
-  s.source           = { :git => 'https://github.com/li437277219@gmail.com/HYFFmpegKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/huboceanLi/HYFFmpegKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '13.0'
+  s.module_name = "FFmpegKit"
+  s.requires_arc = true
+  s.swift_version = '5.0'
   s.source_files = 'HYFFmpegKit/Classes/**/*'
-  
+  s.vendored_frameworks = 'FFmpegKit/Frameworks/ffmpegkit.xcframework', 'FFmpegKit/Frameworks/libavcodec.xcframework', 'FFmpegKit/Frameworks/libavdevice.xcframework', 'FFmpegKit/Frameworks/libavfilter.xcframework', 'FFmpegKit/Frameworks/libavformat.xcframework', 'FFmpegKit/Frameworks/libavutil.xcframework', 'FFmpegKit/Frameworks/libswresample.xcframework', 'FFmpegKit/Frameworks/libswscale.xcframework'
+
   # s.resource_bundles = {
   #   'HYFFmpegKit' => ['HYFFmpegKit/Assets/*.png']
   # }
