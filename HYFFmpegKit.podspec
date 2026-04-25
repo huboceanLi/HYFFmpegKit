@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYFFmpegKit'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of HYFFmpegKit.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.requires_arc = true
   s.swift_version = '5.0'
   s.source_files = 'HYFFmpegKit/Classes/**/*'
-  s.vendored_frameworks = 'FFmpegKit/Frameworks/ffmpegkit.xcframework', 'FFmpegKit/Frameworks/libavcodec.xcframework', 'FFmpegKit/Frameworks/libavdevice.xcframework', 'FFmpegKit/Frameworks/libavfilter.xcframework', 'FFmpegKit/Frameworks/libavformat.xcframework', 'FFmpegKit/Frameworks/libavutil.xcframework', 'FFmpegKit/Frameworks/libswresample.xcframework', 'FFmpegKit/Frameworks/libswscale.xcframework'
+  s.vendored_frameworks = 'HYFFmpegKit/Frameworks/ffmpegkit.xcframework', 'HYFFmpegKit/Frameworks/libavcodec.xcframework', 'FFmpegKit/Frameworks/libavdevice.xcframework', 'FFmpegKit/Frameworks/libavfilter.xcframework', 'FFmpegKit/Frameworks/libavformat.xcframework', 'FFmpegKit/Frameworks/libavutil.xcframework', 'FFmpegKit/Frameworks/libswresample.xcframework', 'FFmpegKit/Frameworks/libswscale.xcframework'
 
   # s.resource_bundles = {
   #   'HYFFmpegKit' => ['HYFFmpegKit/Assets/*.png']

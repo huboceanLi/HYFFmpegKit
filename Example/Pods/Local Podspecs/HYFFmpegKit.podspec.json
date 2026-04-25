@@ -1,9 +1,9 @@
 {
   "name": "HYFFmpegKit",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of HYFFmpegKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/li437277219@gmail.com/HYFFmpegKit",
+  "homepage": "https://github.com/huboceanLi/HYFFmpegKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,25 @@
     "li437277219@gmail.com": "li437277219@gmail.com"
   },
   "source": {
-    "git": "https://github.com/li437277219@gmail.com/HYFFmpegKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/huboceanLi/HYFFmpegKit.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "HYFFmpegKit/Classes/**/*"
+  "module_name": "FFmpegKit",
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "source_files": "HYFFmpegKit/Classes/**/*",
+  "vendored_frameworks": [
+    "HYFFmpegKit/Frameworks/ffmpegkit.xcframework",
+    "HYFFmpegKit/Frameworks/libavcodec.xcframework",
+    "FFmpegKit/Frameworks/libavdevice.xcframework",
+    "FFmpegKit/Frameworks/libavfilter.xcframework",
+    "FFmpegKit/Frameworks/libavformat.xcframework",
+    "FFmpegKit/Frameworks/libavutil.xcframework",
+    "FFmpegKit/Frameworks/libswresample.xcframework",
+    "FFmpegKit/Frameworks/libswscale.xcframework"
+  ],
+  "swift_version": "5.0"
 }

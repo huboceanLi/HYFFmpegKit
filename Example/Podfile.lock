@@ -1,5 +1,5 @@
 PODS:
-  - HYFFmpegKit (0.1.0)
+  - HYFFmpegKit (0.0.1)
 
 DEPENDENCIES:
   - HYFFmpegKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HYFFmpegKit: a718f7a0b4f61df40592404375c5706082a0c1e5
+  HYFFmpegKit: 3dc419ffe2878fe0251175167f4d8fb6821991aa
 
 PODFILE CHECKSUM: 3db2a37d81c3d56df29544cf6f1fbac973c252aa
 
